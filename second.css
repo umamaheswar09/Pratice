@@ -60,6 +60,7 @@
     display: block;
     width: 100%;
     height: 400px;
+    object-fit: cover;
 
 }
 .content-on-image{
@@ -105,7 +106,7 @@
     transform: translate(-60%, -20%);
     background-color: #f0f0f0;
     padding: 20px;
-    width: 40%;
+    width: 30%;
     z-index: 2;
     height: 200px;
     margin-bottom: 50px;
@@ -144,9 +145,10 @@
 }
 
 .creative-process-div h1{
-    text-align: center;
+    margin-left: 25%;
     color: blueviolet;
     font-family: Arial, Helvetica, sans-serif
+    
 }
 .creative-process-div p{
     padding-top: 15px;
@@ -165,7 +167,7 @@
     display: block;
     width: 100%;
     height: 300px;
-
+    object-fit: cover;
 }
 .back-img-two-content{
     position: absolute;
@@ -175,8 +177,9 @@
     /* font-size: 24px; */
     color: white;
     text-align: center;
-    width: 400px;
-    font-size: 20px;
+    width: 700px;
+    font-size: 30px;
+    
 }
 
 
@@ -193,7 +196,7 @@
     width: 100%;
 }
 .cards-container h1{
-    margin-left: 14%;
+    margin-left: 25%;
 }
 .card h5{
     margin-top: 10px;
@@ -208,7 +211,12 @@
     color: white;
     margin-top: 10px;
 }
-
+.svg-icons {
+    text-align: center;
+}
+.svg-icons svg{
+    margin: 10px;
+}
 .team-main-container{
     background-color: whitesmoke;
     width: 100%;
@@ -232,7 +240,7 @@
 
 }
 .team-main-container h1{
-    margin-left: 14%;
+    margin-left: 25%;
 }
 
 
@@ -269,6 +277,11 @@
     margin-bottom: 5px;
 }
 
+.form-submit-btn {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
 .form-btn {
     display: flex;
     margin-top: 10px;
@@ -300,35 +313,49 @@
 
 .footer-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background-color: #000000; /* Dark background color */
-    color: white; /* Text color */
-    padding: 20px; /* Padding */
-    height: 400px; /* Set height */
+    justify-content: center;
+    align-items: center; 
+    background-color: #000000; 
+    color: white; 
+    padding: 20px;
+    height: 400px; 
 }
 
 footer {
-    width: 100%; /* Ensure footer spans the width of its container */
-    text-align: center; /* Center-align text */
+    width: 100%;
+    text-align: center; 
 }
 
 .content {
-    margin-bottom: 20px; /* Add space at the bottom */
+    margin-bottom: 20px; 
+}
+.footer-img{
+    width: 50px;
 }
 
+.conent{
+    display: flex;
+    justify-content: center;
+    
+}
+.conent h1{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .icons-container {
-    margin-top: 20px; /* Add space at the top */
-    margin-bottom: 20px; /* Add space at the bottom */
+    margin-top: 20px; 
+    margin-bottom: 20px; 
 }
 
 .icons-container svg {
-    margin-right: 10px; /* Add some space between icons */
+    margin-right: 10px; 
 }
 
 .w-container {
-    font-size: 12px; /* Smaller font size */
-    margin-top: 20px; /* Add space at the top */
+    font-size: 12px;
+    margin-top: 20px; 
 }
 .w-container span{
     text-decoration: underline red;

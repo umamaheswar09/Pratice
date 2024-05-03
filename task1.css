@@ -21,6 +21,7 @@ body{
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(9, 6, 6);
+    margin-top: 30px;
 }
 .addemployee-btn{
     margin: 20px;

@@ -15,7 +15,7 @@
 <body>
     <div class="nav-bar">
         <div class="nav-logo">
-            <img src="/Assests/snad logo.jpg" alt="">
+            <img src="./snad logo.jpg" alt="">
         </div>
 
         <div class="log-out">
@@ -27,7 +27,7 @@
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog"> 
                     <div class="modal-content">
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmation Logout</h1>
@@ -38,7 +38,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Logout</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Logout</button>
                         </div>
                     </div>
                 </div>
@@ -69,21 +69,21 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Role:</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
+                                    <input type="text" class="form-control" id="message-text">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Email:</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
+                                    <input type="email" class="form-control" id="message-text">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message-text" class="col-form-label">Phone Number:</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
+                                    <input type="tel" class="form-control" id="message-text">
                                 </div>
                             </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Add</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Add</button>
                         </div>
                     </div>
                 </div>
